@@ -1,0 +1,61 @@
+body {
+    padding: 0 2rem;
+    margin: 0 2rem;
+    font-size: 16px;
+    color: #212529;
+    background-color: #fff;
+    -webkit-font-smoothing: antialiased;
+}
+
+#logo {
+	margin-right: auto;
+}
+
+#logo a {
+	color:#212529 ;
+}
+
+#social p {
+	margin-bottom: 0;
+}
+
+header#header {
+	position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9;
+    border-bottom: 4px solid #D3D3D3;
+    background-color: white;
+    padding: 10px;
+}
+
+#header .container {
+	display: flex;
+    align-items: center;
+    max-width: 980px;
+    margin: 0 auto;
+    transition: all 0.2s ease;
+}
+
+	.main-container{
+	max-width: 980px;
+    margin: 0 auto;
+    margin-top: 125px;
+}
+
+
+.main-content {
+    margin-bottom: 4rem;
+}
+
+.nes-avatar.is-custom {
+	width: 100px;
+	height: 100px;
+}
+
+footer {
+	font-size: 12px;
+	    text-align: center;
+    margin-bottom: 2rem;	
+}
