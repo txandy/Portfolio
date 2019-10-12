@@ -1,3 +1,7 @@
+html, body, pre, code, kbd, samp {
+    font-family: 'Press Start 2P', cursive;
+}
+
 body {
     padding: 0 2rem;
     margin: 0 2rem;
@@ -7,20 +11,28 @@ body {
     -webkit-font-smoothing: antialiased;
 }
 
+.nes-container {
+    margin-bottom: 2em;
+}
+
 #logo {
-	margin-right: auto;
+    margin-right: auto;
 }
 
 #logo a {
-	color:#212529 ;
+    color: #212529;
 }
 
 #social p {
-	margin-bottom: 0;
+    margin-bottom: 0;
+}
+
+#social .share {
+    text-align: center;
 }
 
 header#header {
-	position: fixed;
+    position: fixed;
     top: 0;
     left: 0;
     right: 0;
@@ -31,17 +43,16 @@ header#header {
 }
 
 #header .container {
-	display: flex;
+    display: flex;
     align-items: center;
-    max-width: 980px;
+    max-width: 1280px;
     margin: 0 auto;
     transition: all 0.2s ease;
 }
 
-	.main-container{
-	max-width: 980px;
-    margin: 0 auto;
-    margin-top: 125px;
+.main-container {
+    max-width: 1280px;
+    margin: 125px auto 0;
 }
 
 
@@ -50,12 +61,12 @@ header#header {
 }
 
 .nes-avatar.is-custom {
-	width: 100px;
-	height: 100px;
+    width: 100px;
+    height: 100px;
 }
 
 footer {
-	font-size: 12px;
-	    text-align: center;
-    margin-bottom: 2rem;	
+    font-size: 12px;
+    text-align: center;
+    margin-bottom: 2rem;
 }
